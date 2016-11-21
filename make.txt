@@ -16,10 +16,10 @@ CFLAGS=-g -Wall -D__USE_FIXED_PROTOTYPES__ -std=c99
 
 # libraries 
 # custom
-ZLIB_LIBRARY = /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/libzlib.a 
+ZLIB_LIBRARY = ../zlib-1.2.8/libzlib.a
 
 # the build target executable:
-TARGET = libpng_1.6.24
+TARGET = libpng
 LIBRARY = liblibpng.a
 
 all: $(TARGET)
@@ -79,6 +79,6 @@ pngwutil.o: pngwutil.c
 	$(CC) $(CFLAGS) -c pngwutil.c 
 
 clean: 
-	$(RM) $(TARGET) $(LIBRARY) png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
+	$(RM) $(TARGET) $(TARGET).exe $(LIBRARY) png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
 
  
