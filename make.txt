@@ -21,6 +21,8 @@ ZLIB_INCL_DIR = ../zlib-1.2.8
 
 INCL_DIR += -I$(ZLIB_INCL_DIR)
 
+CFLAGS += $(INCL_DIR)
+
 # the build target executable:
 TARGET = libpng
 LIBRARY = liblibpng.a
@@ -28,7 +30,7 @@ LIBRARY = liblibpng.a
 all: $(TARGET)
 
 $(TARGET): main.c $(LIBRARY)
-	$(CC) $(CFLAGS) $(INCL_DIR) -o $(TARGET) main.c $(LIBRARY) $(ZLIB_LIBRARY)
+	$(CC) $(CFLAGS) -o $(TARGET) main.c $(LIBRARY) $(ZLIB_LIBRARY)
 
 $(LIBRARY): png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
 	$(AR) $(LIBRARY) png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
