@@ -17,6 +17,9 @@ CFLAGS=-g -Wall -D__USE_FIXED_PROTOTYPES__ -std=c99
 # libraries 
 # custom
 ZLIB_LIBRARY = ../zlib-1.2.8/libzlib.a
+ZLIB_INCL_DIR = ../zlib-1.2.8
+
+INCL_DIR += -I$(ZLIB_INCL_DIR)
 
 # the build target executable:
 TARGET = libpng
@@ -25,7 +28,7 @@ LIBRARY = liblibpng.a
 all: $(TARGET)
 
 $(TARGET): main.c $(LIBRARY)
-	$(CC) $(CFLAGS) -o $(TARGET) main.c $(LIBRARY) $(ZLIB_LIBRARY) 
+	$(CC) $(CFLAGS) $(INCL_DIR) -o $(TARGET) main.c $(LIBRARY) $(ZLIB_LIBRARY)
 
 $(LIBRARY): png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
 	$(AR) $(LIBRARY) png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
