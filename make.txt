@@ -1,0 +1,84 @@
+# Makefile for UNIX 
+
+# the compiler: gcc for C program, define as g++ for C++
+CC = gcc 
+
+# the static library archiver 
+AR = ar rcs 
+
+# compiler flags: 
+# -g enable debugging 
+# -Wall turn on all warnings
+# -D__USE_FIXED_PROTOTYPES__ force the compiler to use the correct headers
+# -ansi don’t use GNU extensions, stick to ANSI 
+# -std=c99 use newer version
+CFLAGS=-g -Wall -D__USE_FIXED_PROTOTYPES__ -std=c99
+
+# libraries 
+# custom
+ZLIB_LIBRARY = /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/libzlib.a 
+
+# the build target executable:
+TARGET = libpng_1.6.24
+LIBRARY = liblibpng.a
+
+all: $(TARGET)
+
+$(TARGET): main.c $(LIBRARY)
+	$(CC) $(CFLAGS) -o $(TARGET) main.c $(LIBRARY) $(ZLIB_LIBRARY) 
+
+$(LIBRARY): png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
+	$(AR) $(LIBRARY) png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
+
+png.o: png.c png.h 
+	$(CC) $(CFLAGS) -c png.c 
+
+pngerror.o: pngerror.c 
+	$(CC) $(CFLAGS) -c pngerror.c 
+
+pngget.o: pngget.c 
+	$(CC) $(CFLAGS) -c pngget.c 
+
+pngmem.o: pngmem.c 
+	$(CC) $(CFLAGS) -c pngmem.c 
+
+pngpread.o: pngpread.c 
+	$(CC) $(CFLAGS) -c pngpread.c 
+
+pngread.o: pngread.c
+	$(CC) $(CFLAGS) -c pngread.c
+
+pngrio.o: pngrio.c 
+	$(CC) $(CFLAGS) -c pngrio.c
+
+pngrtran.o: pngrtran.c 
+	$(CC) $(CFLAGS) -c pngrtran.c
+
+pngrutil.o: pngrutil.c
+	$(CC) $(CFLAGS) -c pngrutil.c
+
+pngset.o: pngset.c 
+	$(CC) $(CFLAGS) -c pngset.c  
+
+pngtest.o: pngtest.c 
+	$(CC) $(CFLAGS) -c pngtest.c
+
+pngtrans.o: pngtrans.c 
+	$(CC) $(CFLAGS) -c pngtrans.c  
+
+pngwio.o: pngwio.c 
+	$(CC) $(CFLAGS) -c pngwio.c
+
+pngwrite.o: pngwrite.c 
+	$(CC) $(CFLAGS) -c pngwrite.c 
+
+pngwtran.o: pngwtran.c 
+	$(CC) $(CFLAGS) -c pngwtran.c 
+
+pngwutil.o: pngwutil.c 
+	$(CC) $(CFLAGS) -c pngwutil.c 
+
+clean: 
+	$(RM) $(TARGET) $(LIBRARY) png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
+
+ 
