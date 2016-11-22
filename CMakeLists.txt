@@ -12,6 +12,9 @@ else()
     message("building for Unix")
 endif()
 
+# include header files directories
+include_directories(${CMAKE_SOURCE_DIR}/../zlib-1.2.8)
+
 # libraries paths
 set(ZLIB_PATH ${CMAKE_SOURCE_DIR}/../zlib-1.2.8)
 if(CYGWIN)
