@@ -19,8 +19,8 @@ CFLAGS=-g -Wall -D__USE_FIXED_PROTOTYPES__ -std=c99
 ZLIB_LIBRARY = ../zlib-1.2.8/libzlib.a
 ZLIB_INCL_DIR = ../zlib-1.2.8
 
+# include headers
 INCL_DIRS += -I$(ZLIB_INCL_DIR)
-
 CFLAGS += $(INCL_DIRS)
 
 # the build target executable:
