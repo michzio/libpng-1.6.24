@@ -1,0 +1,3 @@
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/output/unix/bin/libpng
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/output/unix/lib/liblibpng.dylib
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/output/unix/lib/static/liblibpng.a

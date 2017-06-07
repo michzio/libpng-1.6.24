@@ -26,7 +26,7 @@ else()
 endif()
 
 add_library(libpng_Lib SHARED ${SOURCE_FILES})
-set_target_properties(libpng_Lib PROPERTIES OUTPUT_NAME libpng_shared)
+set_target_properties(libpng_Lib PROPERTIES OUTPUT_NAME libpng)
 target_link_libraries(libpng_Lib ${ZLIB_LIB_PATH})
 
 add_library(libpng_Lib_Static ${SOURCE_FILES})
