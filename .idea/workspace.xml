@@ -2,9 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="libpng_1_6_24" targetName="libpng_Lib" />
+      <config projectName="libpng_1_6_24" targetName="zlib_Lib_Static" />
       <config projectName="libpng_1_6_24" targetName="libpng_Lib_Static" />
-      <config projectName="libpng_1_6_24" targetName="Intall_libpng_1_6_24" />
+      <config projectName="libpng_1_6_24" targetName="libpng_Lib" />
+      <config projectName="libpng_1_6_24" targetName="zlib_1_2_8" />
+      <config projectName="libpng_1_6_24" targetName="zlib_Lib" />
       <config projectName="libpng_1_6_24" targetName="libpng_1_6_24" />
     </generated>
   </component>
@@ -15,11 +17,129 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="233ce071-9484-4ef1-9d61-304bbf29ebde" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libpng_1.6.24.dSYM/Contents/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libpng_1.6.24.dSYM/Contents/Resources/DWARF/libpng_1.6.24" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libpng-1.6.24.iml" afterPath="$PROJECT_DIR$/.idea/libpng-1.6.24.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arm/arm_init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arm/filter_neon.S" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arm/filter_neon_intrinsics.c" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/main.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/png.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngerror.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngget.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngmem.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngpread.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngread.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngrio.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngrtran.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngrutil.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngset.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngtest.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngtrans.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngwio.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngwrite.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngwtran.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/pngwutil.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/png.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngget.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngread.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngset.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/bin/libpng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/bin/libpng.dSYM/Contents/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/bin/libpng.dSYM/Contents/Resources/DWARF/libpng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/lib/static/liblibpng.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/png.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngerror.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngget.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngmem.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngpread.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngread.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngrio.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngrtran.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngrutil.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngset.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngtest.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngtrans.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngwio.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngwrite.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngwtran.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/pngwutil.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/unix/bin/libpng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/unix/lib/liblibpng.dylib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/unix/lib/static/liblibpng.a" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/src/main.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/png.c" afterPath="$PROJECT_DIR$/src/png.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/png.h" afterPath="$PROJECT_DIR$/include/png.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngconf.h" afterPath="$PROJECT_DIR$/include/pngconf.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngdebug.h" afterPath="$PROJECT_DIR$/include/pngdebug.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngerror.c" afterPath="$PROJECT_DIR$/src/pngerror.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngget.c" afterPath="$PROJECT_DIR$/src/pngget.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pnginfo.h" afterPath="$PROJECT_DIR$/include/pnginfo.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pnglibconf.h" afterPath="$PROJECT_DIR$/include/pnglibconf.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngmem.c" afterPath="$PROJECT_DIR$/src/pngmem.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngpread.c" afterPath="$PROJECT_DIR$/src/pngpread.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngpriv.h" afterPath="$PROJECT_DIR$/include/pngpriv.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngread.c" afterPath="$PROJECT_DIR$/src/pngread.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngrio.c" afterPath="$PROJECT_DIR$/src/pngrio.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngrtran.c" afterPath="$PROJECT_DIR$/src/pngrtran.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngrutil.c" afterPath="$PROJECT_DIR$/src/pngrutil.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngset.c" afterPath="$PROJECT_DIR$/src/pngset.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngstruct.h" afterPath="$PROJECT_DIR$/include/pngstruct.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngtest.c" afterPath="$PROJECT_DIR$/src/pngtest.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngtrans.c" afterPath="$PROJECT_DIR$/src/pngtrans.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngwio.c" afterPath="$PROJECT_DIR$/src/pngwio.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngwrite.c" afterPath="$PROJECT_DIR$/src/pngwrite.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngwtran.c" afterPath="$PROJECT_DIR$/src/pngwtran.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pngwutil.c" afterPath="$PROJECT_DIR$/src/pngwutil.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/cmake_clean_target.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/cmake_clean_target.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/libpng_1_6_24.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/libpng_1_6_24.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make.txt" afterPath="$PROJECT_DIR$/make.txt" />
     </list>
     <ignored path="libpng-1.6.24.iws" />
@@ -44,8 +164,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="56">
+              <caret line="4" column="441" lean-forward="false" selection-start-line="4" selection-start-column="441" selection-end-line="4" selection-end-column="441" />
               <folding />
             </state>
           </provider>
@@ -63,7 +183,14 @@
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/png.h" />
         <option value="$PROJECT_DIR$/pngconf.h" />
+        <option value="$PROJECT_DIR$/include/pngstruct.h" />
+        <option value="$PROJECT_DIR$/src/pngtest.c" />
+        <option value="$PROJECT_DIR$/src/pngwrite.c" />
+        <option value="$PROJECT_DIR$/make.txt" />
+        <option value="$PROJECT_DIR$/src/arm/filter_neon.S" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/arm/filter_neon_intrinsics.c" />
+        <option value="$PROJECT_DIR$/src/arm/arm_init.c" />
       </list>
     </option>
   </component>
@@ -74,9 +201,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="241" />
-    <option name="y" value="108" />
-    <option name="width" value="1177" />
+    <option name="x" value="52" />
+    <option name="y" value="135" />
+    <option name="width" value="1345" />
     <option name="height" value="665" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,6 +231,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="libpng-1.6.24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng_1_6_24" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng-1.6.24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng-1.6.24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng_1_6_24" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng-1.6.24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng-1.6.24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng_1_6_24" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng-1.6.24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libpng-1.6.24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -117,10 +298,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/include" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -136,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Intall_libpng_1_6_24">
+  <component name="RunManager" selected="Application.Build All">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -233,6 +416,8 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -329,20 +514,30 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="zlib_1_2_8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpng_1_6_24" TARGET_NAME="zlib_1_2_8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpng_1_6_24" RUN_TARGET_NAME="zlib_1_2_8">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="zlib_Lib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpng_1_6_24" TARGET_NAME="zlib_Lib" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="zlib_Lib_Static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpng_1_6_24" TARGET_NAME="zlib_Lib_Static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpng_1_6_24" RUN_TARGET_NAME="libpng_1_6_24" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Intall_libpng_1_6_24" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpng_1_6_24" TARGET_NAME="Intall_libpng_1_6_24" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpng_1_6_24" RUN_TARGET_NAME="libpng_1_6_24">
-      <envs />
-      <method />
-    </configuration>
-    <list size="5">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.libpng_1_6_24" />
       <item index="1" class="java.lang.String" itemvalue="Application.libpng_Lib" />
       <item index="2" class="java.lang.String" itemvalue="Application.libpng_Lib_Static" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Intall_libpng_1_6_24" />
+      <item index="3" class="java.lang.String" itemvalue="Application.zlib_1_2_8" />
+      <item index="4" class="java.lang.String" itemvalue="Application.zlib_Lib" />
+      <item index="5" class="java.lang.String" itemvalue="Application.zlib_Lib_Static" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Build All" />
     </list>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -384,27 +579,32 @@
       <workItem from="1479916237837" duration="798000" />
       <workItem from="1479919011310" duration="14000" />
       <workItem from="1496746008717" duration="633000" />
+      <workItem from="1496826460981" duration="331000" />
+      <workItem from="1496827919054" duration="132000" />
+      <workItem from="1502457976079" duration="9593000" />
+      <workItem from="1502557248451" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14343000" />
+    <option name="totallyTimeSpent" value="25157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="241" y="108" width="1177" height="665" extended-state="0" />
+    <frame x="52" y="135" width="1345" height="665" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21850221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20260936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35602096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28446773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2809773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32809773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -435,6 +635,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="35" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="40" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="63" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -473,154 +713,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/png.c">
+    <entry file="file://$PROJECT_DIR$/src/png.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngdebug.h">
+    <entry file="file://$PROJECT_DIR$/include/pngdebug.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngerror.c">
+    <entry file="file://$PROJECT_DIR$/src/pngerror.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngget.c">
+    <entry file="file://$PROJECT_DIR$/src/pngget.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pnginfo.h">
+    <entry file="file://$PROJECT_DIR$/include/pnginfo.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngmem.c">
+    <entry file="file://$PROJECT_DIR$/src/pngmem.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngpread.c">
+    <entry file="file://$PROJECT_DIR$/src/pngpread.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngpriv.h">
+    <entry file="file://$PROJECT_DIR$/include/pngpriv.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngread.c">
+    <entry file="file://$PROJECT_DIR$/src/pngread.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngrio.c">
+    <entry file="file://$PROJECT_DIR$/src/pngrio.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngrtran.c">
+    <entry file="file://$PROJECT_DIR$/src/pngrtran.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngrutil.c">
+    <entry file="file://$PROJECT_DIR$/src/pngrutil.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngset.c">
+    <entry file="file://$PROJECT_DIR$/src/pngset.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngstruct.h">
+    <entry file="file://$PROJECT_DIR$/src/pngtrans.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngtest.c">
+    <entry file="file://$PROJECT_DIR$/src/pngwio.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngtrans.c">
+    <entry file="file://$PROJECT_DIR$/src/pngwtran.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngwio.c">
+    <entry file="file://$PROJECT_DIR$/src/pngwutil.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngwrite.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pngwtran.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pngwutil.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/src/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pnglibconf.h">
+    <entry file="file://$PROJECT_DIR$/include/pnglibconf.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2249">
           <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
@@ -634,24 +853,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pngconf.h">
+    <entry file="file://$PROJECT_DIR$/include/pngconf.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="508" column="0" lean-forward="false" selection-start-line="508" selection-start-column="0" selection-end-line="515" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/png.h">
+    <entry file="file://$PROJECT_DIR$/include/png.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5445">
           <caret line="2698" column="14" lean-forward="false" selection-start-line="2698" selection-start-column="3" selection-end-line="2698" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/pngstruct.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pngwrite.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pngtest.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="81" column="12" lean-forward="false" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arm/arm_init.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="e#520#6924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="63" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arm/filter_neon_intrinsics.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arm/filter_neon.S">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2836">
+          <caret line="244" column="57" lean-forward="false" selection-start-line="244" selection-start-column="57" selection-end-line="244" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="56">
+          <caret line="4" column="441" lean-forward="false" selection-start-line="4" selection-start-column="441" selection-end-line="4" selection-end-column="441" />
           <folding />
         </state>
       </provider>

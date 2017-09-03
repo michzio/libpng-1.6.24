@@ -5,7 +5,7 @@
 		<Option title="libpng_1_6_24"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\zlib-1.2.8\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
@@ -17,44 +17,15 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/local">
-				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Intall_libpng_1_6_24">
-				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 Intall_libpng_1_6_24"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="libpng_1_6_24">
-				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/libpng" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/outputs/bin/apple/libpng" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/outputs/bin/apple"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
@@ -70,13 +41,14 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libpng_1_6_24/fast">
-				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/libpng" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/outputs/bin/apple/libpng" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/outputs/bin/apple"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
@@ -86,6 +58,16 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 libpng_1_6_24/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -101,24 +83,15 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="list_install_components">
-				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="libpng_Lib_Static">
-				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/liblibpng.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/outputs/lib/apple/liblibpng.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
@@ -134,13 +107,14 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libpng_Lib_Static/fast">
-				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/liblibpng.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/outputs/lib/apple/liblibpng.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
@@ -155,34 +129,15 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/strip">
-				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install">
-				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="libpng_Lib">
-				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/liblibpng.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/outputs/lib/apple/liblibpng.dylib" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
@@ -198,13 +153,14 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libpng_Lib/fast">
-				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/liblibpng.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/outputs/lib/apple/liblibpng.dylib" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
@@ -219,104 +175,367 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="zlib_1_2_8">
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/bin/apple/zlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/bin/apple"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 zlib_1_2_8"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib_1_2_8/fast">
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/bin/apple/zlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/bin/apple"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 zlib_1_2_8/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib_Lib_Static">
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/lib/apple/libzlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 zlib_Lib_Static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib_Lib_Static/fast">
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/lib/apple/libzlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 zlib_Lib_Static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib_Lib">
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/lib/apple/libzlib.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 zlib_Lib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib_Lib/fast">
+				<Option output="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/lib/apple/libzlib.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include"/>
+					<Add directory="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 zlib_Lib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/main.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include/png.h">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include/pngconf.h">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include/pngdebug.h">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include/pnginfo.h">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include/pnglibconf.h">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include/pngpriv.h">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include/pngstruct.h">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/arm_init.c">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/filter_neon.S">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/filter_neon_intrinsics.c">
+			<Option target="libpng_Lib_Static"/>
+			<Option target="libpng_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/main.c">
 			<Option target="libpng_1_6_24"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/png.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/png.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/png.h">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngerror.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngconf.h">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngget.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngdebug.h">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngmem.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngerror.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngpread.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngget.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngread.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pnginfo.h">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrio.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pnglibconf.h">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrtran.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngmem.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrutil.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngpread.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngset.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngpriv.h">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtest.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngread.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtrans.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrio.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwio.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrtran.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwrite.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrutil.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwtran.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngset.c">
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwutil.c">
 			<Option target="libpng_Lib_Static"/>
 			<Option target="libpng_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngstruct.h">
-			<Option target="libpng_Lib_Static"/>
-			<Option target="libpng_Lib"/>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/crc32.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtest.c">
-			<Option target="libpng_Lib_Static"/>
-			<Option target="libpng_Lib"/>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/deflate.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtrans.c">
-			<Option target="libpng_Lib_Static"/>
-			<Option target="libpng_Lib"/>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/gzguts.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwio.c">
-			<Option target="libpng_Lib_Static"/>
-			<Option target="libpng_Lib"/>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/inffast.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwrite.c">
-			<Option target="libpng_Lib_Static"/>
-			<Option target="libpng_Lib"/>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/inffixed.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwtran.c">
-			<Option target="libpng_Lib_Static"/>
-			<Option target="libpng_Lib"/>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/inflate.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
 		</Unit>
-		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwutil.c">
-			<Option target="libpng_Lib_Static"/>
-			<Option target="libpng_Lib"/>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/inftrees.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/trees.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/zconf.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/zlib.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include/zutil.h">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/adler32.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/compress.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/crc32.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/deflate.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzclose.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzlib.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzread.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzwrite.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/infback.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inffast.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inflate.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inftrees.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/main.c">
+			<Option target="zlib_1_2_8"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/trees.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/uncompr.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/zutil.c">
+			<Option target="zlib_Lib_Static"/>
+			<Option target="zlib_Lib"/>
 		</Unit>
 		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\zlib-1.2.8\"/>
+		</Unit>
+		<Unit filename="/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\zlib-1.2.8\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -4,32 +4,36 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/png.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/png.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngerror.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngget.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngget.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngmem.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngpread.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngread.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngread.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrio.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrtran.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrutil.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngset.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngset.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtest.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtrans.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwio.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwrite.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwtran.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o"
-  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwutil.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/arm_init.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/filter_neon_intrinsics.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/png.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/png.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngerror.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngget.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngmem.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngpread.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngread.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrio.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrtran.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrutil.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngset.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtest.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtrans.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwio.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwrite.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwtran.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o"
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwutil.c" "/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../../zlib-1.2.8"
+  "../include"
+  "../../zlib-1.2.8/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_Lib_Static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

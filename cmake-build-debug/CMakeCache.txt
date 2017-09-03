@@ -196,10 +196,22 @@ libpng_1_6_24_BINARY_DIR:STATIC=/Users/michzio/Developer/MyProjects/BachelorDegr
 libpng_1_6_24_SOURCE_DIR:STATIC=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24
 
 //Dependencies for the target
-libpng_Lib_LIB_DEPENDS:STATIC=general;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/output/unix/lib/static/libzlib.a;
+libpng_Lib_LIB_DEPENDS:STATIC=general;zlib_Lib;
 
 //Dependencies for the target
-libpng_Lib_Static_LIB_DEPENDS:STATIC=general;/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/output/unix/lib/static/libzlib.a;
+libpng_Lib_Static_LIB_DEPENDS:STATIC=general;zlib_Lib_Static;
+
+//Value Computed by CMake
+zlib_1_2_8_BINARY_DIR:STATIC=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs
+
+//Value Computed by CMake
+zlib_1_2_8_SOURCE_DIR:STATIC=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8
+
+//Dependencies for target
+zlib_Lib_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+zlib_Lib_Static_LIB_DEPENDS:STATIC=
 
 
 ########################
@@ -300,7 +312,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

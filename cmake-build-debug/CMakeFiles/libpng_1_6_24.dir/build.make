@@ -57,51 +57,51 @@ include CMakeFiles/libpng_1_6_24.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/libpng_1_6_24.dir/flags.make
 
-CMakeFiles/libpng_1_6_24.dir/main.c.o: CMakeFiles/libpng_1_6_24.dir/flags.make
-CMakeFiles/libpng_1_6_24.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libpng_1_6_24.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_1_6_24.dir/main.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/main.c
+CMakeFiles/libpng_1_6_24.dir/src/main.c.o: CMakeFiles/libpng_1_6_24.dir/flags.make
+CMakeFiles/libpng_1_6_24.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libpng_1_6_24.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_1_6_24.dir/src/main.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/main.c
 
-CMakeFiles/libpng_1_6_24.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_1_6_24.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/main.c > CMakeFiles/libpng_1_6_24.dir/main.c.i
+CMakeFiles/libpng_1_6_24.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_1_6_24.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/main.c > CMakeFiles/libpng_1_6_24.dir/src/main.c.i
 
-CMakeFiles/libpng_1_6_24.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_1_6_24.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/main.c -o CMakeFiles/libpng_1_6_24.dir/main.c.s
+CMakeFiles/libpng_1_6_24.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_1_6_24.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/main.c -o CMakeFiles/libpng_1_6_24.dir/src/main.c.s
 
-CMakeFiles/libpng_1_6_24.dir/main.c.o.requires:
+CMakeFiles/libpng_1_6_24.dir/src/main.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_1_6_24.dir/main.c.o.requires
+.PHONY : CMakeFiles/libpng_1_6_24.dir/src/main.c.o.requires
 
-CMakeFiles/libpng_1_6_24.dir/main.c.o.provides: CMakeFiles/libpng_1_6_24.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_1_6_24.dir/build.make CMakeFiles/libpng_1_6_24.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/libpng_1_6_24.dir/main.c.o.provides
+CMakeFiles/libpng_1_6_24.dir/src/main.c.o.provides: CMakeFiles/libpng_1_6_24.dir/src/main.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_1_6_24.dir/build.make CMakeFiles/libpng_1_6_24.dir/src/main.c.o.provides.build
+.PHONY : CMakeFiles/libpng_1_6_24.dir/src/main.c.o.provides
 
-CMakeFiles/libpng_1_6_24.dir/main.c.o.provides.build: CMakeFiles/libpng_1_6_24.dir/main.c.o
+CMakeFiles/libpng_1_6_24.dir/src/main.c.o.provides.build: CMakeFiles/libpng_1_6_24.dir/src/main.c.o
 
 
 # Object files for target libpng_1_6_24
 libpng_1_6_24_OBJECTS = \
-"CMakeFiles/libpng_1_6_24.dir/main.c.o"
+"CMakeFiles/libpng_1_6_24.dir/src/main.c.o"
 
 # External object files for target libpng_1_6_24
 libpng_1_6_24_EXTERNAL_OBJECTS =
 
-libpng: CMakeFiles/libpng_1_6_24.dir/main.c.o
-libpng: CMakeFiles/libpng_1_6_24.dir/build.make
-libpng: liblibpng.a
-libpng: ../../zlib-1.2.8/output/unix/lib/static/libzlib.a
-libpng: CMakeFiles/libpng_1_6_24.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable libpng"
+../outputs/bin/apple/libpng: CMakeFiles/libpng_1_6_24.dir/src/main.c.o
+../outputs/bin/apple/libpng: CMakeFiles/libpng_1_6_24.dir/build.make
+../outputs/bin/apple/libpng: ../outputs/lib/apple/liblibpng.dylib
+../outputs/bin/apple/libpng: /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/lib/apple/libzlib.dylib
+../outputs/bin/apple/libpng: CMakeFiles/libpng_1_6_24.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../outputs/bin/apple/libpng"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libpng_1_6_24.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/libpng_1_6_24.dir/build: libpng
+CMakeFiles/libpng_1_6_24.dir/build: ../outputs/bin/apple/libpng
 
 .PHONY : CMakeFiles/libpng_1_6_24.dir/build
 
-CMakeFiles/libpng_1_6_24.dir/requires: CMakeFiles/libpng_1_6_24.dir/main.c.o.requires
+CMakeFiles/libpng_1_6_24.dir/requires: CMakeFiles/libpng_1_6_24.dir/src/main.c.o.requires
 
 .PHONY : CMakeFiles/libpng_1_6_24.dir/requires
 

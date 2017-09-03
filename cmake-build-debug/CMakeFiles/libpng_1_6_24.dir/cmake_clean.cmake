@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/libpng_1_6_24.dir/main.c.o"
-  "libpng.pdb"
-  "libpng"
+  "CMakeFiles/libpng_1_6_24.dir/src/main.c.o"
+  "../outputs/bin/apple/libpng.pdb"
+  "../outputs/bin/apple/libpng"
 )
 
 # Per-language clean rules from dependency scanning.

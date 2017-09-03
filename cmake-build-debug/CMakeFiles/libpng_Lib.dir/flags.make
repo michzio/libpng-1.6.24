@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = -Dlibpng_Lib_EXPORTS
 
-C_INCLUDES = -I/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8 
+C_INCLUDES = -I/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/include -I/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/../zlib-1.2.8/include 
 

@@ -1,10 +1,10 @@
-/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/install/local.dir
-/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/Intall_libpng_1_6_24.dir
 /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_1_6_24.dir
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/list_install_components.dir
 /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib_Static.dir
-/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/install/strip.dir
-/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/install.dir
 /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles/libpng_Lib.dir
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/rebuild_cache.dir
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/edit_cache.dir
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_1_2_8.dir
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_Lib_Static.dir
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_Lib.dir

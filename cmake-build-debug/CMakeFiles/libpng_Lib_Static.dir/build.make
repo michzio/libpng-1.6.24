@@ -57,455 +57,509 @@ include CMakeFiles/libpng_Lib_Static.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/libpng_Lib_Static.dir/flags.make
 
-CMakeFiles/libpng_Lib_Static.dir/png.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/png.c.o: ../png.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libpng_Lib_Static.dir/png.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/png.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/png.c
+CMakeFiles/libpng_Lib_Static.dir/src/png.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/png.c.o: ../src/png.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/png.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/png.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/png.c
 
-CMakeFiles/libpng_Lib_Static.dir/png.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/png.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/png.c > CMakeFiles/libpng_Lib_Static.dir/png.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/png.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/png.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/png.c > CMakeFiles/libpng_Lib_Static.dir/src/png.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/png.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/png.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/png.c -o CMakeFiles/libpng_Lib_Static.dir/png.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/png.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/png.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/png.c -o CMakeFiles/libpng_Lib_Static.dir/src/png.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/png.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/png.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/png.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/png.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/png.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/png.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/png.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/png.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/png.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/png.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/png.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/png.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/png.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/png.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/png.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/png.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o: ../pngerror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngerror.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o: ../src/pngerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngerror.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngerror.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngerror.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngerror.c > CMakeFiles/libpng_Lib_Static.dir/pngerror.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngerror.c > CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngerror.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngerror.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngerror.c -o CMakeFiles/libpng_Lib_Static.dir/pngerror.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngerror.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngget.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngget.c.o: ../pngget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngget.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngget.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngget.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o: ../src/pngget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngget.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngget.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngget.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngget.c > CMakeFiles/libpng_Lib_Static.dir/pngget.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngget.c > CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngget.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngget.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngget.c -o CMakeFiles/libpng_Lib_Static.dir/pngget.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngget.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngget.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngget.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngget.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngget.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngget.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngget.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngget.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngget.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o: ../pngmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngmem.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o: ../src/pngmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngmem.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngmem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngmem.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngmem.c > CMakeFiles/libpng_Lib_Static.dir/pngmem.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngmem.c > CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngmem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngmem.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngmem.c -o CMakeFiles/libpng_Lib_Static.dir/pngmem.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngmem.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o: ../pngpread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngpread.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o: ../src/pngpread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngpread.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngpread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngpread.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngpread.c > CMakeFiles/libpng_Lib_Static.dir/pngpread.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngpread.c > CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngpread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngpread.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngpread.c -o CMakeFiles/libpng_Lib_Static.dir/pngpread.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngpread.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngread.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngread.c.o: ../pngread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngread.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngread.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngread.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o: ../src/pngread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngread.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngread.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngread.c > CMakeFiles/libpng_Lib_Static.dir/pngread.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngread.c > CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngread.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngread.c -o CMakeFiles/libpng_Lib_Static.dir/pngread.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngread.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngread.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngread.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngread.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngread.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngread.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngread.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngread.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngread.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o: ../pngrio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrio.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o: ../src/pngrio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrio.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngrio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngrio.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrio.c > CMakeFiles/libpng_Lib_Static.dir/pngrio.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrio.c > CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngrio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngrio.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrio.c -o CMakeFiles/libpng_Lib_Static.dir/pngrio.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrio.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o: ../pngrtran.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrtran.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o: ../src/pngrtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrtran.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrtran.c > CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrtran.c > CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrtran.c -o CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrtran.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o: ../pngrutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrutil.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o: ../src/pngrutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrutil.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrutil.c > CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrutil.c > CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngrutil.c -o CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngrutil.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngset.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngset.c.o: ../pngset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngset.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngset.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o: ../src/pngset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngset.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngset.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngset.c > CMakeFiles/libpng_Lib_Static.dir/pngset.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngset.c > CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngset.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngset.c -o CMakeFiles/libpng_Lib_Static.dir/pngset.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngset.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngset.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngset.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngset.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngset.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngset.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngset.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngset.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngset.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o: ../pngtest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtest.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o: ../src/pngtest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtest.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngtest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngtest.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtest.c > CMakeFiles/libpng_Lib_Static.dir/pngtest.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtest.c > CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngtest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngtest.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtest.c -o CMakeFiles/libpng_Lib_Static.dir/pngtest.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtest.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o: ../pngtrans.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtrans.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o: ../src/pngtrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtrans.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtrans.c > CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtrans.c > CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngtrans.c -o CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngtrans.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o: ../pngwio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwio.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o: ../src/pngwio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwio.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngwio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngwio.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwio.c > CMakeFiles/libpng_Lib_Static.dir/pngwio.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwio.c > CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngwio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngwio.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwio.c -o CMakeFiles/libpng_Lib_Static.dir/pngwio.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwio.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o: ../pngwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwrite.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o: ../src/pngwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwrite.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwrite.c > CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwrite.c > CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwrite.c -o CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwrite.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o: ../pngwtran.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwtran.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o: ../src/pngwtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwtran.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwtran.c > CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwtran.c > CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwtran.c -o CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwtran.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o
 
 
-CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
-CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o: ../pngwutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwutil.c
+CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o: ../src/pngwutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwutil.c
 
-CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwutil.c > CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.i
+CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwutil.c > CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.i
 
-CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/pngwutil.c -o CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.s
+CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/pngwutil.c -o CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.s
 
-CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o.requires:
+CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o.requires:
 
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o.requires
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o.requires
 
-CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o.requires
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o.provides.build
-.PHONY : CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o.provides
+CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o.provides
 
-CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o
+CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o
+
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o: ../src/arm/arm_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/arm_init.c
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/arm_init.c > CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.i
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/arm_init.c -o CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.s
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o.requires:
+
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o.requires
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o.provides
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o
+
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o: CMakeFiles/libpng_Lib_Static.dir/flags.make
+CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o: ../src/arm/filter_neon_intrinsics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/filter_neon_intrinsics.c
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/filter_neon_intrinsics.c > CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.i
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/src/arm/filter_neon_intrinsics.c -o CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.s
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o.requires:
+
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o.requires
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o.provides: CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o.requires
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o.provides.build
+.PHONY : CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o.provides
+
+CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o.provides.build: CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o
 
 
 # Object files for target libpng_Lib_Static
 libpng_Lib_Static_OBJECTS = \
-"CMakeFiles/libpng_Lib_Static.dir/png.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngget.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngread.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngset.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o" \
-"CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o"
+"CMakeFiles/libpng_Lib_Static.dir/src/png.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o" \
+"CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o"
 
 # External object files for target libpng_Lib_Static
 libpng_Lib_Static_EXTERNAL_OBJECTS =
 
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/png.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngget.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngread.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngset.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/build.make
-liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library liblibpng.a"
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/png.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/build.make
+../outputs/lib/apple/liblibpng.a: CMakeFiles/libpng_Lib_Static.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1.6.24/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C static library ../outputs/lib/apple/liblibpng.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/libpng_Lib_Static.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libpng_Lib_Static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/libpng_Lib_Static.dir/build: liblibpng.a
+CMakeFiles/libpng_Lib_Static.dir/build: ../outputs/lib/apple/liblibpng.a
 
 .PHONY : CMakeFiles/libpng_Lib_Static.dir/build
 
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/png.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngget.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngread.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngset.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o.requires
-CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/png.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o.requires
+CMakeFiles/libpng_Lib_Static.dir/requires: CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o.requires
 
 .PHONY : CMakeFiles/libpng_Lib_Static.dir/requires
 

@@ -16,12 +16,12 @@ CFLAGS=-g -Wall -D__USE_FIXED_PROTOTYPES__ -std=c99
 
 # libraries 
 # custom
-ZLIB_INCL_DIR = ../zlib-1.2.8
-ZLIB_LIBRARY = $(ZLIB_INCL_DIR)/output/debug/lib/static/libzlib.a
+ZLIB_LIB_DIR=../zlib-1.2.8/outputs/debug/lib
+ZLIB_STATIC_LIB_PATH=$(ZLIB_LIB_DIR)/libzlib.a
 
-# include headers
-INCL_DIRS += -I$(ZLIB_INCL_DIR)
-CFLAGS += $(INCL_DIRS)
+# include directories
+INCLUDE_DIRS= ./include ../zlib-1.2.8/include
+CFLAGS+= $(foreach d, $(INCLUDE_DIRS), -I$d)
 
 # the build target executable:
 TARGET = libpng
@@ -36,78 +36,83 @@ else
 	DYNAMIC_LIBRARY=
 endif
 
-# output directories 
-OUTPUT_DIR = output/debug
-OUTPUT_LIB_DIR = $(OUTPUT_DIR)/lib
-OUTPUT_STATIC_LIB_DIR = $(OUTPUT_LIB_DIR)/static
-OUTPUT_BIN_DIR = $(OUTPUT_DIR)/bin
+# source files
+SOURCE_FILES = png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
+
+# outputs directories
+OUTPUTS_DIR = outputs/debug
+OUTPUTS_LIB_DIR = $(OUTPUTS_DIR)/lib
+OUTPUTS_BIN_DIR = $(OUTPUTS_DIR)/bin
 
 all: directories libraries $(TARGET)
 
-# make output directories
+# make outputs directories
 directories: 
-	@mkdir -p $(OUTPUT_DIR)
-	@mkdir -p $(OUTPUT_LIB_DIR)
-	@mkdir -p $(OUTPUT_STATIC_LIB_DIR)
-	@mkdir -p $(OUTPUT_BIN_DIR)
+	@mkdir -p $(OUTPUTS_DIR)
+	@mkdir -p $(OUTPUTS_LIB_DIR)
+	@mkdir -p $(OUTPUTS_BIN_DIR)
 
-libraries: $(LIBRARY)
+libraries: $(LIBRARY) $(SHARED_LIBRARY) $(DYNAMIC_LIBRARY)
 
 $(TARGET): $(LIBRARY)
-	$(CC) $(CFLAGS) -o $(OUTPUT_BIN_DIR)/$(TARGET) main.c $(OUTPUT_STATIC_LIB_DIR)/$(LIBRARY) $(ZLIB_LIBRARY)
+	$(CC) $(CFLAGS) -o $(OUTPUTS_BIN_DIR)/$(TARGET) src/main.c $(OUTPUTS_LIB_DIR)/$(LIBRARY) $(ZLIB_STATIC_LIB_PATH)
 
-$(LIBRARY): png.o pngerror.o pngget.o pngmem.o pngpread.o pngread.o pngrio.o pngrtran.o pngrutil.o pngset.o pngtest.o pngtrans.o pngwio.o pngwrite.o pngwtran.o pngwutil.o
-	$(AR) $(OUTPUT_STATIC_LIB_DIR)/$(LIBRARY) $(OUTPUT_DIR)/*.o
+$(SHARED_LIBRARY): $(SOURCE_FILES)
+	$(CC) $(CFLAGS) -L$(ZLIB_LIB_DIR) -shared -o $(OUTPUTS_LIB_DIR)/$(SHARED_LIBRARY) $(OUTPUTS_DIR)/*.o -lzlib
 
-png.o: png.c png.h 
-	$(CC) $(CFLAGS) -c png.c -o $(OUTPUT_DIR)/png.o
+$(DYNAMIC_LIBRARY): $(SOURCE_FILES)
+	$(CC) $(CFLAGS) -L$(ZLIB_LIB_DIR) -dynamiclib -o $(OUTPUTS_LIB_DIR)/$(DYNAMIC_LIBRARY) $(OUTPUTS_DIR)/*.o -lzlib
 
-pngerror.o: pngerror.c 
-	$(CC) $(CFLAGS) -c pngerror.c -o $(OUTPUT_DIR)/pngerror.o
+$(LIBRARY): $(SOURCE_FILES)
+	$(AR) $(OUTPUTS_LIB_DIR)/$(LIBRARY) $(OUTPUTS_DIR)/*.o
 
-pngget.o: pngget.c 
-	$(CC) $(CFLAGS) -c pngget.c -o $(OUTPUT_DIR)/pngget.o
+png.o: src/png.c include/png.h
+	$(CC) $(CFLAGS) -c src/png.c -o $(OUTPUTS_DIR)/png.o
 
-pngmem.o: pngmem.c 
-	$(CC) $(CFLAGS) -c pngmem.c -o $(OUTPUT_DIR)/pngmem.o
+pngerror.o: src/pngerror.c
+	$(CC) $(CFLAGS) -c src/pngerror.c -o $(OUTPUTS_DIR)/pngerror.o
 
-pngpread.o: pngpread.c 
-	$(CC) $(CFLAGS) -c pngpread.c -o $(OUTPUT_DIR)/pngpread.o
+pngget.o: src/pngget.c
+	$(CC) $(CFLAGS) -c src/pngget.c -o $(OUTPUTS_DIR)/pngget.o
 
-pngread.o: pngread.c
-	$(CC) $(CFLAGS) -c pngread.c -o $(OUTPUT_DIR)/pngread.o
+pngmem.o: src/pngmem.c
+	$(CC) $(CFLAGS) -c src/pngmem.c -o $(OUTPUTS_DIR)/pngmem.o
 
-pngrio.o: pngrio.c 
-	$(CC) $(CFLAGS) -c pngrio.c -o $(OUTPUT_DIR)/pngrio.o
+pngpread.o: src/pngpread.c
+	$(CC) $(CFLAGS) -c src/pngpread.c -o $(OUTPUTS_DIR)/pngpread.o
 
-pngrtran.o: pngrtran.c 
-	$(CC) $(CFLAGS) -c pngrtran.c -o $(OUTPUT_DIR)/pngrtran.o
+pngread.o: src/pngread.c
+	$(CC) $(CFLAGS) -c src/pngread.c -o $(OUTPUTS_DIR)/pngread.o
 
-pngrutil.o: pngrutil.c
-	$(CC) $(CFLAGS) -c pngrutil.c -o $(OUTPUT_DIR)/pngrutil.o
+pngrio.o: src/pngrio.c
+	$(CC) $(CFLAGS) -c src/pngrio.c -o $(OUTPUTS_DIR)/pngrio.o
 
-pngset.o: pngset.c 
-	$(CC) $(CFLAGS) -c pngset.c -o $(OUTPUT_DIR)/pngset.o
+pngrtran.o: src/pngrtran.c
+	$(CC) $(CFLAGS) -c src/pngrtran.c -o $(OUTPUTS_DIR)/pngrtran.o
 
-pngtest.o: pngtest.c 
-	$(CC) $(CFLAGS) -c pngtest.c -o $(OUTPUT_DIR)/pngtest.o
+pngrutil.o: src/pngrutil.c
+	$(CC) $(CFLAGS) -c src/pngrutil.c -o $(OUTPUTS_DIR)/pngrutil.o
 
-pngtrans.o: pngtrans.c 
-	$(CC) $(CFLAGS) -c pngtrans.c -o $(OUTPUT_DIR)/pngtrans.o 
+pngset.o: src/pngset.c
+	$(CC) $(CFLAGS) -c src/pngset.c -o $(OUTPUTS_DIR)/pngset.o
 
-pngwio.o: pngwio.c 
-	$(CC) $(CFLAGS) -c pngwio.c -o $(OUTPUT_DIR)/pngwio.o
+pngtest.o: src/pngtest.c
+	$(CC) $(CFLAGS) -c src/pngtest.c -o $(OUTPUTS_DIR)/pngtest.o
 
-pngwrite.o: pngwrite.c 
-	$(CC) $(CFLAGS) -c pngwrite.c -o $(OUTPUT_DIR)/pngwrite.o
+pngtrans.o: src/pngtrans.c
+	$(CC) $(CFLAGS) -c src/pngtrans.c -o $(OUTPUTS_DIR)/pngtrans.o
 
-pngwtran.o: pngwtran.c 
-	$(CC) $(CFLAGS) -c pngwtran.c -o $(OUTPUT_DIR)/pngwtran.o
+pngwio.o: src/pngwio.c
+	$(CC) $(CFLAGS) -c src/pngwio.c -o $(OUTPUTS_DIR)/pngwio.o
 
-pngwutil.o: pngwutil.c 
-	$(CC) $(CFLAGS) -c pngwutil.c -o $(OUTPUT_DIR)/pngwutil.o
+pngwrite.o: src/pngwrite.c
+	$(CC) $(CFLAGS) -c src/pngwrite.c -o $(OUTPUTS_DIR)/pngwrite.o
+
+pngwtran.o: src/pngwtran.c
+	$(CC) $(CFLAGS) -c src/pngwtran.c -o $(OUTPUTS_DIR)/pngwtran.o
+
+pngwutil.o: src/pngwutil.c
+	$(CC) $(CFLAGS) -c src/pngwutil.c -o $(OUTPUTS_DIR)/pngwutil.o
 
 clean: 
-	$(RM) -rf $(OUTPUT_DIR)
-
- 
+	$(RM) -rf $(OUTPUTS_DIR)

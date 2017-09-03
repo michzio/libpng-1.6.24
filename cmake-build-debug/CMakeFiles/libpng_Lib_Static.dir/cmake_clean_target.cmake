@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "liblibpng.a"
+  "../outputs/lib/apple/liblibpng.a"
 )

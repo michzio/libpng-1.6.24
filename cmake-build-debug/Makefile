@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/michzio/Developer/MyProjects/BachelorDegree/c/libpng-1
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -88,39 +77,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -153,19 +109,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named Intall_libpng_1_6_24
-
-# Build rule for target.
-Intall_libpng_1_6_24: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Intall_libpng_1_6_24
-.PHONY : Intall_libpng_1_6_24
-
-# fast build rule for target.
-Intall_libpng_1_6_24/fast:
-	$(MAKE) -f CMakeFiles/Intall_libpng_1_6_24.dir/build.make CMakeFiles/Intall_libpng_1_6_24.dir/build
-.PHONY : Intall_libpng_1_6_24/fast
 
 #=============================================================================
 # Target rules for targets named libpng_1_6_24
@@ -206,512 +149,611 @@ libpng_Lib/fast:
 	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/build
 .PHONY : libpng_Lib/fast
 
-main.o: main.c.o
+#=============================================================================
+# Target rules for targets named zlib_1_2_8
 
-.PHONY : main.o
+# Build rule for target.
+zlib_1_2_8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zlib_1_2_8
+.PHONY : zlib_1_2_8
 
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/libpng_1_6_24.dir/build.make CMakeFiles/libpng_1_6_24.dir/main.c.o
-.PHONY : main.c.o
+# fast build rule for target.
+zlib_1_2_8/fast:
+	$(MAKE) -f /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_1_2_8.dir/build.make /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_1_2_8.dir/build
+.PHONY : zlib_1_2_8/fast
 
-main.i: main.c.i
+#=============================================================================
+# Target rules for targets named zlib_Lib_Static
 
-.PHONY : main.i
+# Build rule for target.
+zlib_Lib_Static: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zlib_Lib_Static
+.PHONY : zlib_Lib_Static
 
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/libpng_1_6_24.dir/build.make CMakeFiles/libpng_1_6_24.dir/main.c.i
-.PHONY : main.c.i
+# fast build rule for target.
+zlib_Lib_Static/fast:
+	$(MAKE) -f /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_Lib_Static.dir/build.make /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_Lib_Static.dir/build
+.PHONY : zlib_Lib_Static/fast
 
-main.s: main.c.s
+#=============================================================================
+# Target rules for targets named zlib_Lib
 
-.PHONY : main.s
+# Build rule for target.
+zlib_Lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zlib_Lib
+.PHONY : zlib_Lib
 
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/libpng_1_6_24.dir/build.make CMakeFiles/libpng_1_6_24.dir/main.c.s
-.PHONY : main.c.s
+# fast build rule for target.
+zlib_Lib/fast:
+	$(MAKE) -f /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_Lib.dir/build.make /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/outputs/CMakeFiles/zlib_Lib.dir/build
+.PHONY : zlib_Lib/fast
 
-png.o: png.c.o
+src/arm/arm_init.o: src/arm/arm_init.c.o
 
-.PHONY : png.o
-
-# target to build an object file
-png.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/png.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/png.c.o
-.PHONY : png.c.o
-
-png.i: png.c.i
-
-.PHONY : png.i
-
-# target to preprocess a source file
-png.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/png.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/png.c.i
-.PHONY : png.c.i
-
-png.s: png.c.s
-
-.PHONY : png.s
-
-# target to generate assembly for a file
-png.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/png.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/png.c.s
-.PHONY : png.c.s
-
-pngerror.o: pngerror.c.o
-
-.PHONY : pngerror.o
+.PHONY : src/arm/arm_init.o
 
 # target to build an object file
-pngerror.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngerror.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngerror.c.o
-.PHONY : pngerror.c.o
+src/arm/arm_init.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/arm/arm_init.c.o
+.PHONY : src/arm/arm_init.c.o
 
-pngerror.i: pngerror.c.i
+src/arm/arm_init.i: src/arm/arm_init.c.i
 
-.PHONY : pngerror.i
+.PHONY : src/arm/arm_init.i
 
 # target to preprocess a source file
-pngerror.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngerror.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngerror.c.i
-.PHONY : pngerror.c.i
+src/arm/arm_init.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/arm/arm_init.c.i
+.PHONY : src/arm/arm_init.c.i
 
-pngerror.s: pngerror.c.s
+src/arm/arm_init.s: src/arm/arm_init.c.s
 
-.PHONY : pngerror.s
+.PHONY : src/arm/arm_init.s
 
 # target to generate assembly for a file
-pngerror.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngerror.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngerror.c.s
-.PHONY : pngerror.c.s
+src/arm/arm_init.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/arm/arm_init.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/arm/arm_init.c.s
+.PHONY : src/arm/arm_init.c.s
 
-pngget.o: pngget.c.o
+src/arm/filter_neon_intrinsics.o: src/arm/filter_neon_intrinsics.c.o
 
-.PHONY : pngget.o
+.PHONY : src/arm/filter_neon_intrinsics.o
 
 # target to build an object file
-pngget.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngget.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngget.c.o
-.PHONY : pngget.c.o
+src/arm/filter_neon_intrinsics.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/arm/filter_neon_intrinsics.c.o
+.PHONY : src/arm/filter_neon_intrinsics.c.o
 
-pngget.i: pngget.c.i
+src/arm/filter_neon_intrinsics.i: src/arm/filter_neon_intrinsics.c.i
 
-.PHONY : pngget.i
+.PHONY : src/arm/filter_neon_intrinsics.i
 
 # target to preprocess a source file
-pngget.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngget.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngget.c.i
-.PHONY : pngget.c.i
+src/arm/filter_neon_intrinsics.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/arm/filter_neon_intrinsics.c.i
+.PHONY : src/arm/filter_neon_intrinsics.c.i
 
-pngget.s: pngget.c.s
+src/arm/filter_neon_intrinsics.s: src/arm/filter_neon_intrinsics.c.s
 
-.PHONY : pngget.s
+.PHONY : src/arm/filter_neon_intrinsics.s
 
 # target to generate assembly for a file
-pngget.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngget.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngget.c.s
-.PHONY : pngget.c.s
+src/arm/filter_neon_intrinsics.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/arm/filter_neon_intrinsics.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/arm/filter_neon_intrinsics.c.s
+.PHONY : src/arm/filter_neon_intrinsics.c.s
 
-pngmem.o: pngmem.c.o
+src/main.o: src/main.c.o
 
-.PHONY : pngmem.o
+.PHONY : src/main.o
 
 # target to build an object file
-pngmem.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngmem.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngmem.c.o
-.PHONY : pngmem.c.o
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/libpng_1_6_24.dir/build.make CMakeFiles/libpng_1_6_24.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-pngmem.i: pngmem.c.i
+src/main.i: src/main.c.i
 
-.PHONY : pngmem.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-pngmem.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngmem.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngmem.c.i
-.PHONY : pngmem.c.i
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/libpng_1_6_24.dir/build.make CMakeFiles/libpng_1_6_24.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-pngmem.s: pngmem.c.s
+src/main.s: src/main.c.s
 
-.PHONY : pngmem.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-pngmem.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngmem.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngmem.c.s
-.PHONY : pngmem.c.s
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/libpng_1_6_24.dir/build.make CMakeFiles/libpng_1_6_24.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-pngpread.o: pngpread.c.o
+src/png.o: src/png.c.o
 
-.PHONY : pngpread.o
+.PHONY : src/png.o
 
 # target to build an object file
-pngpread.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngpread.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngpread.c.o
-.PHONY : pngpread.c.o
+src/png.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/png.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/png.c.o
+.PHONY : src/png.c.o
 
-pngpread.i: pngpread.c.i
+src/png.i: src/png.c.i
 
-.PHONY : pngpread.i
+.PHONY : src/png.i
 
 # target to preprocess a source file
-pngpread.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngpread.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngpread.c.i
-.PHONY : pngpread.c.i
+src/png.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/png.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/png.c.i
+.PHONY : src/png.c.i
 
-pngpread.s: pngpread.c.s
+src/png.s: src/png.c.s
 
-.PHONY : pngpread.s
+.PHONY : src/png.s
 
 # target to generate assembly for a file
-pngpread.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngpread.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngpread.c.s
-.PHONY : pngpread.c.s
+src/png.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/png.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/png.c.s
+.PHONY : src/png.c.s
 
-pngread.o: pngread.c.o
+src/pngerror.o: src/pngerror.c.o
 
-.PHONY : pngread.o
+.PHONY : src/pngerror.o
 
 # target to build an object file
-pngread.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngread.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngread.c.o
-.PHONY : pngread.c.o
+src/pngerror.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngerror.c.o
+.PHONY : src/pngerror.c.o
 
-pngread.i: pngread.c.i
+src/pngerror.i: src/pngerror.c.i
 
-.PHONY : pngread.i
+.PHONY : src/pngerror.i
 
 # target to preprocess a source file
-pngread.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngread.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngread.c.i
-.PHONY : pngread.c.i
+src/pngerror.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngerror.c.i
+.PHONY : src/pngerror.c.i
 
-pngread.s: pngread.c.s
+src/pngerror.s: src/pngerror.c.s
 
-.PHONY : pngread.s
+.PHONY : src/pngerror.s
 
 # target to generate assembly for a file
-pngread.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngread.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngread.c.s
-.PHONY : pngread.c.s
+src/pngerror.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngerror.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngerror.c.s
+.PHONY : src/pngerror.c.s
 
-pngrio.o: pngrio.c.o
+src/pngget.o: src/pngget.c.o
 
-.PHONY : pngrio.o
+.PHONY : src/pngget.o
 
 # target to build an object file
-pngrio.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrio.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrio.c.o
-.PHONY : pngrio.c.o
+src/pngget.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngget.c.o
+.PHONY : src/pngget.c.o
 
-pngrio.i: pngrio.c.i
+src/pngget.i: src/pngget.c.i
 
-.PHONY : pngrio.i
+.PHONY : src/pngget.i
 
 # target to preprocess a source file
-pngrio.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrio.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrio.c.i
-.PHONY : pngrio.c.i
+src/pngget.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngget.c.i
+.PHONY : src/pngget.c.i
 
-pngrio.s: pngrio.c.s
+src/pngget.s: src/pngget.c.s
 
-.PHONY : pngrio.s
+.PHONY : src/pngget.s
 
 # target to generate assembly for a file
-pngrio.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrio.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrio.c.s
-.PHONY : pngrio.c.s
+src/pngget.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngget.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngget.c.s
+.PHONY : src/pngget.c.s
 
-pngrtran.o: pngrtran.c.o
+src/pngmem.o: src/pngmem.c.o
 
-.PHONY : pngrtran.o
+.PHONY : src/pngmem.o
 
 # target to build an object file
-pngrtran.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrtran.c.o
-.PHONY : pngrtran.c.o
+src/pngmem.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngmem.c.o
+.PHONY : src/pngmem.c.o
 
-pngrtran.i: pngrtran.c.i
+src/pngmem.i: src/pngmem.c.i
 
-.PHONY : pngrtran.i
+.PHONY : src/pngmem.i
 
 # target to preprocess a source file
-pngrtran.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrtran.c.i
-.PHONY : pngrtran.c.i
+src/pngmem.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngmem.c.i
+.PHONY : src/pngmem.c.i
 
-pngrtran.s: pngrtran.c.s
+src/pngmem.s: src/pngmem.c.s
 
-.PHONY : pngrtran.s
+.PHONY : src/pngmem.s
 
 # target to generate assembly for a file
-pngrtran.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrtran.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrtran.c.s
-.PHONY : pngrtran.c.s
+src/pngmem.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngmem.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngmem.c.s
+.PHONY : src/pngmem.c.s
 
-pngrutil.o: pngrutil.c.o
+src/pngpread.o: src/pngpread.c.o
 
-.PHONY : pngrutil.o
+.PHONY : src/pngpread.o
 
 # target to build an object file
-pngrutil.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrutil.c.o
-.PHONY : pngrutil.c.o
+src/pngpread.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngpread.c.o
+.PHONY : src/pngpread.c.o
 
-pngrutil.i: pngrutil.c.i
+src/pngpread.i: src/pngpread.c.i
 
-.PHONY : pngrutil.i
+.PHONY : src/pngpread.i
 
 # target to preprocess a source file
-pngrutil.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrutil.c.i
-.PHONY : pngrutil.c.i
+src/pngpread.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngpread.c.i
+.PHONY : src/pngpread.c.i
 
-pngrutil.s: pngrutil.c.s
+src/pngpread.s: src/pngpread.c.s
 
-.PHONY : pngrutil.s
+.PHONY : src/pngpread.s
 
 # target to generate assembly for a file
-pngrutil.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngrutil.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngrutil.c.s
-.PHONY : pngrutil.c.s
+src/pngpread.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngpread.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngpread.c.s
+.PHONY : src/pngpread.c.s
 
-pngset.o: pngset.c.o
+src/pngread.o: src/pngread.c.o
 
-.PHONY : pngset.o
+.PHONY : src/pngread.o
 
 # target to build an object file
-pngset.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngset.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngset.c.o
-.PHONY : pngset.c.o
+src/pngread.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngread.c.o
+.PHONY : src/pngread.c.o
 
-pngset.i: pngset.c.i
+src/pngread.i: src/pngread.c.i
 
-.PHONY : pngset.i
+.PHONY : src/pngread.i
 
 # target to preprocess a source file
-pngset.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngset.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngset.c.i
-.PHONY : pngset.c.i
+src/pngread.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngread.c.i
+.PHONY : src/pngread.c.i
 
-pngset.s: pngset.c.s
+src/pngread.s: src/pngread.c.s
 
-.PHONY : pngset.s
+.PHONY : src/pngread.s
 
 # target to generate assembly for a file
-pngset.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngset.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngset.c.s
-.PHONY : pngset.c.s
+src/pngread.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngread.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngread.c.s
+.PHONY : src/pngread.c.s
 
-pngtest.o: pngtest.c.o
+src/pngrio.o: src/pngrio.c.o
 
-.PHONY : pngtest.o
+.PHONY : src/pngrio.o
 
 # target to build an object file
-pngtest.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngtest.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngtest.c.o
-.PHONY : pngtest.c.o
+src/pngrio.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrio.c.o
+.PHONY : src/pngrio.c.o
 
-pngtest.i: pngtest.c.i
+src/pngrio.i: src/pngrio.c.i
 
-.PHONY : pngtest.i
+.PHONY : src/pngrio.i
 
 # target to preprocess a source file
-pngtest.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngtest.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngtest.c.i
-.PHONY : pngtest.c.i
+src/pngrio.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrio.c.i
+.PHONY : src/pngrio.c.i
 
-pngtest.s: pngtest.c.s
+src/pngrio.s: src/pngrio.c.s
 
-.PHONY : pngtest.s
+.PHONY : src/pngrio.s
 
 # target to generate assembly for a file
-pngtest.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngtest.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngtest.c.s
-.PHONY : pngtest.c.s
+src/pngrio.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrio.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrio.c.s
+.PHONY : src/pngrio.c.s
 
-pngtrans.o: pngtrans.c.o
+src/pngrtran.o: src/pngrtran.c.o
 
-.PHONY : pngtrans.o
+.PHONY : src/pngrtran.o
 
 # target to build an object file
-pngtrans.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngtrans.c.o
-.PHONY : pngtrans.c.o
+src/pngrtran.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrtran.c.o
+.PHONY : src/pngrtran.c.o
 
-pngtrans.i: pngtrans.c.i
+src/pngrtran.i: src/pngrtran.c.i
 
-.PHONY : pngtrans.i
+.PHONY : src/pngrtran.i
 
 # target to preprocess a source file
-pngtrans.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngtrans.c.i
-.PHONY : pngtrans.c.i
+src/pngrtran.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrtran.c.i
+.PHONY : src/pngrtran.c.i
 
-pngtrans.s: pngtrans.c.s
+src/pngrtran.s: src/pngrtran.c.s
 
-.PHONY : pngtrans.s
+.PHONY : src/pngrtran.s
 
 # target to generate assembly for a file
-pngtrans.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngtrans.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngtrans.c.s
-.PHONY : pngtrans.c.s
+src/pngrtran.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrtran.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrtran.c.s
+.PHONY : src/pngrtran.c.s
 
-pngwio.o: pngwio.c.o
+src/pngrutil.o: src/pngrutil.c.o
 
-.PHONY : pngwio.o
+.PHONY : src/pngrutil.o
 
 # target to build an object file
-pngwio.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwio.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwio.c.o
-.PHONY : pngwio.c.o
+src/pngrutil.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrutil.c.o
+.PHONY : src/pngrutil.c.o
 
-pngwio.i: pngwio.c.i
+src/pngrutil.i: src/pngrutil.c.i
 
-.PHONY : pngwio.i
+.PHONY : src/pngrutil.i
 
 # target to preprocess a source file
-pngwio.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwio.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwio.c.i
-.PHONY : pngwio.c.i
+src/pngrutil.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrutil.c.i
+.PHONY : src/pngrutil.c.i
 
-pngwio.s: pngwio.c.s
+src/pngrutil.s: src/pngrutil.c.s
 
-.PHONY : pngwio.s
+.PHONY : src/pngrutil.s
 
 # target to generate assembly for a file
-pngwio.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwio.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwio.c.s
-.PHONY : pngwio.c.s
+src/pngrutil.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngrutil.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngrutil.c.s
+.PHONY : src/pngrutil.c.s
 
-pngwrite.o: pngwrite.c.o
+src/pngset.o: src/pngset.c.o
 
-.PHONY : pngwrite.o
+.PHONY : src/pngset.o
 
 # target to build an object file
-pngwrite.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwrite.c.o
-.PHONY : pngwrite.c.o
+src/pngset.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngset.c.o
+.PHONY : src/pngset.c.o
 
-pngwrite.i: pngwrite.c.i
+src/pngset.i: src/pngset.c.i
 
-.PHONY : pngwrite.i
+.PHONY : src/pngset.i
 
 # target to preprocess a source file
-pngwrite.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwrite.c.i
-.PHONY : pngwrite.c.i
+src/pngset.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngset.c.i
+.PHONY : src/pngset.c.i
 
-pngwrite.s: pngwrite.c.s
+src/pngset.s: src/pngset.c.s
 
-.PHONY : pngwrite.s
+.PHONY : src/pngset.s
 
 # target to generate assembly for a file
-pngwrite.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwrite.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwrite.c.s
-.PHONY : pngwrite.c.s
+src/pngset.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngset.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngset.c.s
+.PHONY : src/pngset.c.s
 
-pngwtran.o: pngwtran.c.o
+src/pngtest.o: src/pngtest.c.o
 
-.PHONY : pngwtran.o
+.PHONY : src/pngtest.o
 
 # target to build an object file
-pngwtran.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwtran.c.o
-.PHONY : pngwtran.c.o
+src/pngtest.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngtest.c.o
+.PHONY : src/pngtest.c.o
 
-pngwtran.i: pngwtran.c.i
+src/pngtest.i: src/pngtest.c.i
 
-.PHONY : pngwtran.i
+.PHONY : src/pngtest.i
 
 # target to preprocess a source file
-pngwtran.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwtran.c.i
-.PHONY : pngwtran.c.i
+src/pngtest.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngtest.c.i
+.PHONY : src/pngtest.c.i
 
-pngwtran.s: pngwtran.c.s
+src/pngtest.s: src/pngtest.c.s
 
-.PHONY : pngwtran.s
+.PHONY : src/pngtest.s
 
 # target to generate assembly for a file
-pngwtran.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwtran.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwtran.c.s
-.PHONY : pngwtran.c.s
+src/pngtest.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngtest.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngtest.c.s
+.PHONY : src/pngtest.c.s
 
-pngwutil.o: pngwutil.c.o
+src/pngtrans.o: src/pngtrans.c.o
 
-.PHONY : pngwutil.o
+.PHONY : src/pngtrans.o
 
 # target to build an object file
-pngwutil.c.o:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.o
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwutil.c.o
-.PHONY : pngwutil.c.o
+src/pngtrans.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngtrans.c.o
+.PHONY : src/pngtrans.c.o
 
-pngwutil.i: pngwutil.c.i
+src/pngtrans.i: src/pngtrans.c.i
 
-.PHONY : pngwutil.i
+.PHONY : src/pngtrans.i
 
 # target to preprocess a source file
-pngwutil.c.i:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.i
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwutil.c.i
-.PHONY : pngwutil.c.i
+src/pngtrans.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngtrans.c.i
+.PHONY : src/pngtrans.c.i
 
-pngwutil.s: pngwutil.c.s
+src/pngtrans.s: src/pngtrans.c.s
 
-.PHONY : pngwutil.s
+.PHONY : src/pngtrans.s
 
 # target to generate assembly for a file
-pngwutil.c.s:
-	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/pngwutil.c.s
-	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/pngwutil.c.s
-.PHONY : pngwutil.c.s
+src/pngtrans.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngtrans.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngtrans.c.s
+.PHONY : src/pngtrans.c.s
+
+src/pngwio.o: src/pngwio.c.o
+
+.PHONY : src/pngwio.o
+
+# target to build an object file
+src/pngwio.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwio.c.o
+.PHONY : src/pngwio.c.o
+
+src/pngwio.i: src/pngwio.c.i
+
+.PHONY : src/pngwio.i
+
+# target to preprocess a source file
+src/pngwio.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwio.c.i
+.PHONY : src/pngwio.c.i
+
+src/pngwio.s: src/pngwio.c.s
+
+.PHONY : src/pngwio.s
+
+# target to generate assembly for a file
+src/pngwio.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwio.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwio.c.s
+.PHONY : src/pngwio.c.s
+
+src/pngwrite.o: src/pngwrite.c.o
+
+.PHONY : src/pngwrite.o
+
+# target to build an object file
+src/pngwrite.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwrite.c.o
+.PHONY : src/pngwrite.c.o
+
+src/pngwrite.i: src/pngwrite.c.i
+
+.PHONY : src/pngwrite.i
+
+# target to preprocess a source file
+src/pngwrite.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwrite.c.i
+.PHONY : src/pngwrite.c.i
+
+src/pngwrite.s: src/pngwrite.c.s
+
+.PHONY : src/pngwrite.s
+
+# target to generate assembly for a file
+src/pngwrite.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwrite.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwrite.c.s
+.PHONY : src/pngwrite.c.s
+
+src/pngwtran.o: src/pngwtran.c.o
+
+.PHONY : src/pngwtran.o
+
+# target to build an object file
+src/pngwtran.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwtran.c.o
+.PHONY : src/pngwtran.c.o
+
+src/pngwtran.i: src/pngwtran.c.i
+
+.PHONY : src/pngwtran.i
+
+# target to preprocess a source file
+src/pngwtran.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwtran.c.i
+.PHONY : src/pngwtran.c.i
+
+src/pngwtran.s: src/pngwtran.c.s
+
+.PHONY : src/pngwtran.s
+
+# target to generate assembly for a file
+src/pngwtran.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwtran.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwtran.c.s
+.PHONY : src/pngwtran.c.s
+
+src/pngwutil.o: src/pngwutil.c.o
+
+.PHONY : src/pngwutil.o
+
+# target to build an object file
+src/pngwutil.c.o:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.o
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwutil.c.o
+.PHONY : src/pngwutil.c.o
+
+src/pngwutil.i: src/pngwutil.c.i
+
+.PHONY : src/pngwutil.i
+
+# target to preprocess a source file
+src/pngwutil.c.i:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.i
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwutil.c.i
+.PHONY : src/pngwutil.c.i
+
+src/pngwutil.s: src/pngwutil.c.s
+
+.PHONY : src/pngwutil.s
+
+# target to generate assembly for a file
+src/pngwutil.c.s:
+	$(MAKE) -f CMakeFiles/libpng_Lib_Static.dir/build.make CMakeFiles/libpng_Lib_Static.dir/src/pngwutil.c.s
+	$(MAKE) -f CMakeFiles/libpng_Lib.dir/build.make CMakeFiles/libpng_Lib.dir/src/pngwutil.c.s
+.PHONY : src/pngwutil.c.s
 
 # Help Target
 help:
@@ -719,67 +761,71 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
-	@echo "... rebuild_cache"
-	@echo "... Intall_libpng_1_6_24"
 	@echo "... libpng_1_6_24"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... list_install_components"
 	@echo "... libpng_Lib_Static"
-	@echo "... install/strip"
-	@echo "... install"
 	@echo "... libpng_Lib"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... png.o"
-	@echo "... png.i"
-	@echo "... png.s"
-	@echo "... pngerror.o"
-	@echo "... pngerror.i"
-	@echo "... pngerror.s"
-	@echo "... pngget.o"
-	@echo "... pngget.i"
-	@echo "... pngget.s"
-	@echo "... pngmem.o"
-	@echo "... pngmem.i"
-	@echo "... pngmem.s"
-	@echo "... pngpread.o"
-	@echo "... pngpread.i"
-	@echo "... pngpread.s"
-	@echo "... pngread.o"
-	@echo "... pngread.i"
-	@echo "... pngread.s"
-	@echo "... pngrio.o"
-	@echo "... pngrio.i"
-	@echo "... pngrio.s"
-	@echo "... pngrtran.o"
-	@echo "... pngrtran.i"
-	@echo "... pngrtran.s"
-	@echo "... pngrutil.o"
-	@echo "... pngrutil.i"
-	@echo "... pngrutil.s"
-	@echo "... pngset.o"
-	@echo "... pngset.i"
-	@echo "... pngset.s"
-	@echo "... pngtest.o"
-	@echo "... pngtest.i"
-	@echo "... pngtest.s"
-	@echo "... pngtrans.o"
-	@echo "... pngtrans.i"
-	@echo "... pngtrans.s"
-	@echo "... pngwio.o"
-	@echo "... pngwio.i"
-	@echo "... pngwio.s"
-	@echo "... pngwrite.o"
-	@echo "... pngwrite.i"
-	@echo "... pngwrite.s"
-	@echo "... pngwtran.o"
-	@echo "... pngwtran.i"
-	@echo "... pngwtran.s"
-	@echo "... pngwutil.o"
-	@echo "... pngwutil.i"
-	@echo "... pngwutil.s"
+	@echo "... zlib_1_2_8"
+	@echo "... zlib_Lib_Static"
+	@echo "... zlib_Lib"
+	@echo "... src/arm/arm_init.o"
+	@echo "... src/arm/arm_init.i"
+	@echo "... src/arm/arm_init.s"
+	@echo "... src/arm/filter_neon_intrinsics.o"
+	@echo "... src/arm/filter_neon_intrinsics.i"
+	@echo "... src/arm/filter_neon_intrinsics.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/png.o"
+	@echo "... src/png.i"
+	@echo "... src/png.s"
+	@echo "... src/pngerror.o"
+	@echo "... src/pngerror.i"
+	@echo "... src/pngerror.s"
+	@echo "... src/pngget.o"
+	@echo "... src/pngget.i"
+	@echo "... src/pngget.s"
+	@echo "... src/pngmem.o"
+	@echo "... src/pngmem.i"
+	@echo "... src/pngmem.s"
+	@echo "... src/pngpread.o"
+	@echo "... src/pngpread.i"
+	@echo "... src/pngpread.s"
+	@echo "... src/pngread.o"
+	@echo "... src/pngread.i"
+	@echo "... src/pngread.s"
+	@echo "... src/pngrio.o"
+	@echo "... src/pngrio.i"
+	@echo "... src/pngrio.s"
+	@echo "... src/pngrtran.o"
+	@echo "... src/pngrtran.i"
+	@echo "... src/pngrtran.s"
+	@echo "... src/pngrutil.o"
+	@echo "... src/pngrutil.i"
+	@echo "... src/pngrutil.s"
+	@echo "... src/pngset.o"
+	@echo "... src/pngset.i"
+	@echo "... src/pngset.s"
+	@echo "... src/pngtest.o"
+	@echo "... src/pngtest.i"
+	@echo "... src/pngtest.s"
+	@echo "... src/pngtrans.o"
+	@echo "... src/pngtrans.i"
+	@echo "... src/pngtrans.s"
+	@echo "... src/pngwio.o"
+	@echo "... src/pngwio.i"
+	@echo "... src/pngwio.s"
+	@echo "... src/pngwrite.o"
+	@echo "... src/pngwrite.i"
+	@echo "... src/pngwrite.s"
+	@echo "... src/pngwtran.o"
+	@echo "... src/pngwtran.i"
+	@echo "... src/pngwtran.s"
+	@echo "... src/pngwutil.o"
+	@echo "... src/pngwutil.i"
+	@echo "... src/pngwutil.s"
 .PHONY : help
 
 

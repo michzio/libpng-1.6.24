@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-985b9190da987b9cab78704704c40c1d CMakeFiles/Intall_libpng_1_6_24
